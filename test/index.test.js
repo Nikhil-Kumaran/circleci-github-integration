@@ -8,4 +8,8 @@ describe('Testing functions', () => {
     it('Sub: should return -1', async () => {
         expect(sub(3,4)).toBe(-1)
     })
+
+    it('Sub: should return 6', async () => {
+        expect(sub(3,2)).toBe(6)
+    })
 })
