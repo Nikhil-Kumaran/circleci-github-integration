@@ -1,4 +1,4 @@
-const {add,sub} = require('../src/index')
+const {add,sub,mul} = require('../src/index')
 
 describe('Testing functions', () => {
     it('Add: should return 5', async () => {
@@ -9,7 +9,7 @@ describe('Testing functions', () => {
         expect(sub(3,4)).toBe(-1)
     })
 
-    it('Sub: should return 6', async () => {
-        expect(sub(3,2)).toBe(6)
+    it('Mul: should return 6', async () => {
+        expect(mul(3,2)).toBe(6)
     })
 })
