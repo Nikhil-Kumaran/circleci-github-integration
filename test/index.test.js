@@ -14,6 +14,6 @@ describe('Testing functions', () => {
     })
 
     it('Div: should return 3', () => {
-        expect(div(6,2)).toBe(3)
+        expect(div(6,2)).toBe(4)
     })
 })
